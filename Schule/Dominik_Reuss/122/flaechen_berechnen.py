@@ -1,8 +1,10 @@
 pi = 3.142
+durchmesser1=100
+durchmesser2=10
+höhe = 50
+basis = 80
 
 def kreis():
-    durchmesser1=100
-    durchmesser2=10
     grokre = ((durchmesser1/2)**2/2*pi)
     kleikre = ((durchmesser2/2)**2/2*pi)
     result = (grokre-kleikre)
@@ -10,8 +12,6 @@ def kreis():
 print("Resultat: ", kreis(), "mm2")
 
 def dreieck():
-    höhe = 50
-    basis = 80
     flächedreieck = (höhe*basis/2)
     quadratseite = 5
     quadratfläche = (quadratseite*quadratseite)
